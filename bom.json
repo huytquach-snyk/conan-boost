@@ -1,0 +1,76 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:85358479-520a-4d72-8dbe-41ed7a839e0c",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2024-05-06T05:36:57.343Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "9.8.10",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@9.8.10",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@9.8.10"
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Prabhu Subramanian",
+        "email": "prabhu@appthreat.com"
+      }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "boost",
+      "version": "1.69.0",
+      "licenses": [],
+      "purl": "pkg:conan/boost@1.69.0",
+      "type": "library",
+      "bom-ref": "pkg:conan/boost@1.69.0"
+    },
+    {
+      "group": "",
+      "name": "zlib",
+      "version": "1.2.12",
+      "licenses": [],
+      "purl": "pkg:conan/zlib@1.2.12",
+      "type": "library",
+      "bom-ref": "pkg:conan/zlib@1.2.12"
+    },
+    {
+      "group": "",
+      "name": "bzip2",
+      "version": "1.0.8",
+      "licenses": [],
+      "purl": "pkg:conan/bzip2@1.0.8",
+      "type": "library",
+      "bom-ref": "pkg:conan/bzip2@1.0.8"
+    },
+    {
+      "group": "",
+      "name": "libbacktrace",
+      "version": "cci.20210118",
+      "licenses": [],
+      "purl": "pkg:conan/libbacktrace@cci.20210118",
+      "type": "library",
+      "bom-ref": "pkg:conan/libbacktrace@cci.20210118"
+    },
+    {
+      "group": "",
+      "name": "libiconv",
+      "version": "1.16",
+      "licenses": [],
+      "purl": "pkg:conan/libiconv@1.16",
+      "type": "library",
+      "bom-ref": "pkg:conan/libiconv@1.16"
+    }
+  ],
+  "services": [],
+  "dependencies": []
+}
